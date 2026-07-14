@@ -1,92 +1,133 @@
-CURSO PHP MODERNO
+# 📘 Curso PHP Moderno
 
+Este repositório contém conteúdos e anotações sobre o **Curso de PHP Moderno**, cobrindo desde os fundamentos até recursos avançados da linguagem.
 
-1 - O QUE PRECISA TER PARA COMEÇAR NO PHP
-html, css, javascript
+---
 
-2 - PHP 5 para o moderno mudou muitas coisas 
+## 🚀 1. O que você precisa para começar
+- Conhecimentos básicos em **[HTML](ca://s?q=Aprender_HTML)**, **[CSS](ca://s?q=Aprender_CSS)** e **[JavaScript](ca://s?q=Aprender_JavaScript)**
 
-3 -  leia a documentação do PHP, alguns livro também: 
-aprendendo php (david)
- PHP moderno 
-Programming PHP
-Learn PHP 8
-PHP 8 quick scripting reference
-PHP & MYSQL
+---
 
-4 -  EVOLUÇÃO DA LINGUAGEM PHP:
-1994 criado por RASMUS Lerdorf
-1995 saiu a versão 1, PHP TOOLS (form interpreter)
-1996 PHP/FI , integração com banco de dados (deixou código aberto)
-1997 ANDI GUTMANS E ZEEV SURASKI (grandes colaboradores)
-1998 ANDI GUTMANS E ZEEV SURASKI começou se torna uma linguagem
-1998 COLIN VIEBROCK E VINCENT PONTIER desenho e mascote do php
-1999  ANDI GUTMANS E ZEEV SURASKI lança uma empresa para contribuir ZEND
+## 🔄 2. Evolução do PHP
+- **1994**: Criado por Rasmus Lerdorf  
+- **1995**: Versão 1 – PHP Tools  
+- **1996**: PHP/FI – integração com banco de dados  
+- **1997**: Andi Gutmans e Zeev Suraski entram como colaboradores  
+- **1998**: PHP se torna linguagem de programação  
+- **1999**: Fundação da empresa **Zend**  
 
-5 - POR QUE O MASCOTE DO PHP E UM ELEFANTE:
-ANTES ERA PHP = PERSONAL HOME PAGE
-atual = PHP HYPERTEXT PREPROCESSOR
-nome do mascote e ELEPHPANT
-DO PRÓPRIO NOME PHP VEM O MASCOTE POIS PARECE UM ELEFANTE
+---
 
-6 - AS DIFERENÇAS E MUDANÇAS DAS VERSÕES DO PHP:
-1995 versão 1 personal home page, apenas contador
-1997 oficialmente nomeado PHP/FI 2.0
-1998 VERSÃO 3.0 VIRA LINGUAGEM DE PROGRAMAÇÃO
-2000 VERSÃO 4.0 ZEND ENGINE 1.0 (EMPRESA PARA O PHP)
-2004 ZEND ENGINE 2.0 TRAZENDO PHP 5 ORIENTADO OBJETO
-2005 PHP 6.0 SEGURANÇA , MAIS NUNCA RECEBEU UMA VERSÃO OFICIAL
-2015 PHP 7.0 ZEND ENGINE 3.0 PERFORMANCE 9X MAIS RÁPIDO
-2020 PHP 8.0 ZEND ENGINE 4.0
+## 📚 3. Leituras recomendadas
+- Aprendendo PHP (David)  
+- PHP Moderno  
+- Programming PHP  
+- Learn PHP 8  
+- PHP 8 Quick Scripting Reference  
+- PHP & MySQL  
 
-7 - O PHP VAI MORRER, VALE A PENA ESTUDAR ELE:
-PHP 5 TENDE A CAIR PARA QUE O PHP MODERNO CRESÇA 
-COMPARANDO PHP COM OUTRAS LINGUAGENS ELA ESTA A FRENTE AINDA 
-PHP E JAVASCRIPT TEM COMO USAR AMBAS JUNTAS , APRENDA AMBAS
+---
 
-8 - EMPRESAS FEITA EM PHP:
-FACEBOOK, GOOGLE, APPLE, UBER, PANDAS DU, SPOTIFY, WORDPRESS 
-9 - COMO FUNCIONA O PHP POR DENTRO ; 
-CLIENT-SIDE = LADO DO CLIENTE
-SERVER-SIDE = LADO SERVIDOR
- REQUEST PARA SERVIDOR, SERVIDOR MANDA UM RESPONSE
+## 🐘 4. O mascote do PHP
+- Nome: **ElePHPant**  
+- Origem: Do próprio nome **PHP**, que lembra um elefante  
+- Significado: Antes era *Personal Home Page*, hoje é *PHP Hypertext Preprocessor*
 
-10 - LINGUAGENS QUE RODA COMO SERVER-SIDE:
-microsoft.net
-perl
-java
-javascript 
-python
+---
 
-11 - É POSSÍVEL CRIAR TUDO EM PHP:
-nenhuma ferramenta serve para tudo, assim como todas linguagens 
+## ⚙️ 5. Diferenças entre versões
+| Ano  | Versão | Destaque |
+|------|--------|----------|
+| 1995 | PHP 1  | Contador simples |
+| 1997 | PHP/FI 2.0 | Nome oficial |
+| 1998 | PHP 3.0 | Linguagem de programação |
+| 2000 | PHP 4.0 | Zend Engine 1.0 |
+| 2004 | PHP 5.0 | Orientação a objetos |
+| 2015 | PHP 7.0 | Performance 9x mais rápida |
+| 2020 | PHP 8.0 | Zend Engine 4.0 |
 
-12 - COMO TRANSFORMAR SEU COMPUTADOR EM SERVIDOR PHP:
-lado cliente primeiro um navegador, um editor de código como vscode
-lado servidor um apache um banco de dados interpretador php
-podemos rodar um servidor fake em sua própria máquina chamada AMP
-linux - LAMP , windows - WAMP, mac - MAMP, PARA TODOS XAMPP
+---
 
-13 - CONFIGURANDO O SISTEMA WINDOWS:
-fazer download do XAMPP
-se tiver banco de dados na máquina antes , vai ter que fazer algumas permissões
-fazer o download do google chrome para facilitar com a aula 
+## 🌍 6. Empresas que usam PHP
+- Facebook  
+- Google  
+- Apple  
+- Uber  
+- Spotify  
+- WordPress  
 
-14 - CONFIGURANDO VSCODE extensões:, 
-portuguese (para vscode ficar portugues)
-php intelephense ( te ajuda a escrever o código php)
-format html para php
-PHP awesome snippets (ajuda no código)
+---
 
+## 🖥️ 7. Como funciona o PHP
+- **Client-side**: Navegador do usuário  
+- **Server-side**: Servidor processa e retorna resposta  
+- Fluxo: `Request → Server → Response`
 
-15 - O PHP POR DENTRO:
-PRIMEIRAS MANEIRAS DE CHAMAR PHP EM HTML ERA antes da versão php5
-<script language =”php”> </script>
-NOVA VERSÃO DA SUPER TAG PHP, segue elas abaixo:
-<?php ?> super tag php
-<? ?>  short open tag
-<% %> ASP tag (não funciona mais)
-<?= ?> short tag php (apenas 1 comando sem precisar do ;)
+---
 
-16 - O PODER DO PHP E PRÉ PROCESSAR INFORMAÇÕES
+## 🔧 8. Transformando seu PC em servidor PHP
+- **Cliente**: Navegador + Editor (VSCode)  
+- **Servidor**: Apache + Banco de dados + PHP  
+- Softwares:  
+  - Linux → LAMP  
+  - Windows → WAMP  
+  - Mac → MAMP  
+  - Todos → XAMPP  
+
+---
+
+## 🛠️ 9. Configuração do ambiente
+- **Windows**: Instalar XAMPP + permissões de banco de dados  
+- **VSCode**: Extensões úteis  
+  - Portuguese (tradução)  
+  - PHP Intelephense  
+  - Format HTML for PHP  
+  - PHP Awesome Snippets  
+
+---
+
+## 📝 10. Sintaxe do PHP
+- Super tag: `<?php ?>`  
+- Short tag: `<? ?>`  
+- ASP tag: `<% %>` (não funciona mais)  
+- Echo curto: `<?= ?>`
+
+---
+
+## 📊 11. Tipos de dados
+- **Escalares**: string, int, float, boolean  
+- **Compostos**: array, object  
+- **Especiais**: null, resource, mixed  
+
+---
+
+## 🔤 12. Manipulação de strings
+- **Double quoted**: `"Curso em vídeo"` → interpreta variáveis  
+- **Single quoted**: `'Curso em vídeo'` → texto literal  
+- **Concatenação**: `"Curso" . "em vídeo"`
+
+---
+
+## ➗ 13. Operadores e funções matemáticas
+- Ordem de precedência: `**`, `* / %`, `+ -`  
+- Funções úteis:  
+  - `abs()`, `ceil()`, `floor()`, `round()`  
+  - `hypot()`, `intdiv()`, `min()`, `max()`  
+  - `pi()`, `pow()`, `sqrt()`  
+  - `sin()`, `cos()`, `tan()`
+
+---
+
+## 📥 14. Trabalhando com formulários
+- Necessário: `method`, `action`, `name`, `value`  
+- PHP 8 traz melhorias na manipulação de dados
+
+---
+
+## 🎯 15. Conclusão
+O **PHP moderno** continua sendo uma linguagem poderosa e amplamente utilizada.  
+Estudar PHP é investir em uma tecnologia que ainda move grande parte da web.
+
+---
 
